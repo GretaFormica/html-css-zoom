@@ -52,3 +52,25 @@ header>button{
 
 }
 
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #222222;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer>*{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.video{
+    margin: 5px;
+}
+

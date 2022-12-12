@@ -1,18 +1,54 @@
+/* utils */
+
 body{
     background-color: black;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
 }
 
 /* header */
 
 header{
     text-align: right;
-    position: fixed;
     right: 0;
     height: 70px;
+    width: 100%;
+
+    /* debug */
+    background-color: black;
 }
 
 header>button{
     color: white;
     background-color: #4E6882;
     margin: 5px;
+    padding: 5px;
 }
+
+
+/* main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.col{
+    width: calc(100% / 7 - 10px);
+    position: relative;
+}
+
+.pinco{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    color: white;
+    backdrop-filter: brightness(40%);
+
+}
+
